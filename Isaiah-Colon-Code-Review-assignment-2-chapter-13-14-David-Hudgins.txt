@@ -1,0 +1,5 @@
+David Hudgins
+
+When I try to search up anything the program stops. This is becaus eon line 54 you are trying to update the datagridview. To do this you need to add .ToList() to the end of results to update it. This then needs to be applied to every time you are updating the datagrid view across your code. Everything is set up clearly and well structured, but this one mistake is keeping everything from running well. I beilieve if this is fixed everything else will run smoothly.
+
+The code iscommented, but make sure to be extra clear with the comments. At times like in lines 44-53 there is no comment on what the code is actually doing. Even if it may seem obvious still comment, this is essential especialy when you are coding on a team so that everyone is clear on what does what. I like the way everything is laid out. It is clear what does what with the use of the labels. For extra description you could add tool tips to each button with a clear description of what everything does. 
