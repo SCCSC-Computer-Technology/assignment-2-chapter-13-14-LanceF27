@@ -1,0 +1,37 @@
+Problem 4:
+The code is solid and comments are clear. I didn't encounter any bugs.
+
+I find the choice of using 'Equals' for the search by product number to be interesting, though. 
+The code for searching by description uses 'Contains', which would allow for searching a partial 
+product number as well.
+
+The choice to not have the DataGridView automatically populate on start is also interesting. 
+Having a clearly-labeled button for it is a solid alternative.
+
+There is a lack of data validation, but the program seems to function fine without it.
+
+
+Problem 5:
+Functional, no obvious bugs, data validation works.
+
+The comments are sparse, but they are enough to explain things that may not be clear.
+
+I need to remember that because TryParse has a bool output, you can plug it directly into an if.
+
+Problem 6:
+I have realized that I misunderstood the assignment. Congratulations on your successful implementation 
+of what has actually been asked for from the book re: providing a range of prices.
+
+It is understandable that the implementation asks for integers only. However, as the prices have decimal 
+values, I would personally have liked to see an allowance for decimal entries. Otherwise, the validation 
+is functional.
+
+I would recommend that the UI have clearer indication for which box is 'low' and which is 'high'. When I 
+initially attempted to enter the 'low' number, the error message made me unsure if I had entered the 
+number into the correct box.
+
+Overall:
+UI is somewhat plain, but very neat and comprehensible. Everything is easy to operate and understandable.
+
+There's not a significant difference in code between our respective projects, aside from this one being
+split into three.
